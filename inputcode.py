@@ -1,3 +1,7 @@
+file = open("C:/Users/Admin/Desktop/text.txt","w") 
+ 
+file.write("Hello, World!") 
+
 large1 = 6 + 1 
 large2 = 6 + 1.75
 large3 = 6 + 2.50
