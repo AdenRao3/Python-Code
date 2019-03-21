@@ -1,6 +1,4 @@
 file = open("C:/Users/Admin/Desktop/text.txt","w") 
- 
-file.write("Hello, World!") 
 
 large1 = 6 + 1 
 large2 = 6 + 1.75
@@ -30,41 +28,41 @@ extralarge4totalcost = (10 + 3.35) * 1.13
 pizza_cost = input('What size did you choose? Enter the size (large or extralarge) and then the number of toppings (between 1 and 4) example "large1" or "extralarge2"')
 
 if pizza_cost == 'large1':
-	print ( 'Subtotal: ${}'.format(round(large1, 2)))
-	print ( 'Tax: ${}'.format(round(large1tax, 2)))
-	print ( 'Total: ${}'.format(round(large1totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(large1, 2)))
+	file.write ( 'Tax: ${}'.format(round(large1tax, 2)))
+	file.write ( 'Total: ${}'.format(round(large1totalcost, 2)))
 
 elif pizza_cost == 'large2':
-	print ( 'Subtotal: ${}'.format(round(large2, 2)))
-	print ( 'Tax: ${}'.format(round(large2tax, 2)))
-	print ( 'Total: ${}'.format(round(large2totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(large2, 2)))
+	file.write ( 'Tax: ${}'.format(round(large2tax, 2)))
+	file.write ( 'Total: ${}'.format(round(large2totalcost, 2)))
 
 elif pizza_cost == 'large3':
-	print ( 'Subtotal: ${}'.format(round(large3, 2)))
-	print ( 'Tax: ${}'.format(round(large3tax, 2)))
-	print ( 'Total: ${}'.format(round(large3totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(large3, 2)))
+	file.write ( 'Tax: ${}'.format(round(large3tax, 2)))
+	file.write ( 'Total: ${}'.format(round(large3totalcost, 2)))
 
 elif pizza_cost == 'large4':
-	print ( 'Subtotal: ${}'.format(round(large4, 2))) 
-	print ( 'Tax: ${}'.format(round(large4tax, 2)))
-	print ( 'Total: ${}'.format(round(large4totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(large4, 2))) 
+	file.write ( 'Tax: ${}'.format(round(large4tax, 2)))
+	file.write ( 'Total: ${}'.format(round(large4totalcost, 2)))
 
 if pizza_cost == 'extralarge1':
-	print ( 'Subtotal: ${}'.format(round(extralarge1cost, 2)))
-	print ( 'Tax: ${}'.format(round(extralarge1tax, 2)))
-	print ( 'Total: ${}'.format(round(extralarge1totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(extralarge1cost, 2)))
+	file.write ( 'Tax: ${}'.format(round(extralarge1tax, 2)))
+	file.write ( 'Total: ${}'.format(round(extralarge1totalcost, 2)))
 
 elif pizza_cost == 'extralarge2':
-	print ( 'Subtotal: ${}'.format(round(extralarge2cost, 2)))
-	print ( 'Tax: ${}'.format(round(extralarge2tax, 2)))
-	print ( 'Total: ${}'.format(round(extralarge2totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(extralarge2cost, 2)))
+	file.write ( 'Tax: ${}'.format(round(extralarge2tax, 2)))
+	file.write ( 'Total: ${}'.format(round(extralarge2totalcost, 2)))
 
 elif pizza_cost == 'extralarge3':
-	print ( 'Subtotal: ${}'.format(round(extralarge3cost, 2)))
-	print ( 'Tax: ${}'.format(round(extralarge3tax, 2)))
-	print ( 'Total: ${}'.format(round(extralarge3totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(extralarge3cost, 2)))
+	file.write ( 'Tax: ${}'.format(round(extralarge3tax, 2)))
+	file.write ( 'Total: ${}'.format(round(extralarge3totalcost, 2)))
 
 elif pizza_cost == 'extralarge4':
-	print ( 'Subtotal: ${}'.format(round(extralarge4cost, 2))) 
-	print ( 'Tax: ${}'.format(round(extralarge4tax, 2)))
-	print ( 'Total: ${}'.format(round(extralarge4totalcost, 2)))
+	file.write ( 'Subtotal: ${}'.format(round(extralarge4cost, 2))) 
+	file.write ( 'Tax: ${}'.format(round(extralarge4tax, 2)))
+	file.write ( 'Total: ${}'.format(round(extralarge4totalcost, 2)))
